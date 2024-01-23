@@ -1,0 +1,138 @@
+body{   
+    background-color: #313131;    
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    max-width: 900px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.header__link{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.header__link:hover{
+    opacity: 0.6;
+}
+
+.header__link:focus{
+    outline: none;
+    background-color: #525252;
+    border-radius: 5px;
+}
+
+.icone{
+    width:"20px";
+}
+
+.main{
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__foto{
+    width: 100%;
+    max-width: 200px;
+    align-items: center
+}
+
+.perfil__nome{
+    font-size: 36px;
+    font-weight: 400;
+    color: #f0e057;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.perfil__bio{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 14px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 460xp;
+}
+
+.section{
+    padding: 10px; 
+    width: 100%;
+    max-width: 450px;
+    margin: 24px auto;
+    box-sizing: border-box;
+}
+
+.section__titulo{
+    color: #f0e057;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px 0;
+}    
+
+.cursos{
+    background-color: #4e4e4e;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 16px 0;
+}
+
+.cursos__titulo{
+    font-size: 18px;
+    font-weight: 400;
+    color: #eee16e;
+    margin: 8px 0;
+    padding: 10px;
+}
+
+.cursos__desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 8px 0;
+    padding: 10px;
+    text-align: justify;
+}
+ 
+.footer{    
+    background-color: #eee16e; 
+    width: 100%;
+    padding: 10px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer__txt{
+    text-align: center;
+    color:black;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: justify;
+}
